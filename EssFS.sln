@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{55A73E22-9B24-48B7-A178-9CAE40652217}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EssFS.Chap1", "src\Chap1\EssFS.Chap1.fsproj", "{7E86AC20-4FBF-4525-ADB0-68DC194DD317}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E86AC20-4FBF-4525-ADB0-68DC194DD317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E86AC20-4FBF-4525-ADB0-68DC194DD317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E86AC20-4FBF-4525-ADB0-68DC194DD317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E86AC20-4FBF-4525-ADB0-68DC194DD317}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E86AC20-4FBF-4525-ADB0-68DC194DD317} = {55A73E22-9B24-48B7-A178-9CAE40652217}
 	EndGlobalSection
 EndGlobal
